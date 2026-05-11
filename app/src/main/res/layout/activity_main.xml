@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F5F0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📚 Namma Pustaka"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A2E"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Personal Book Library"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnAddBook"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="➕ Add New Book"
+        android:textSize="16sp"
+        android:backgroundTint="#534AB7"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnBookCatalog"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🔍 Book Catalog"
+        android:textSize="16sp"
+        android:backgroundTint="#1D9E75"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnBookList"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📋 Book List"
+        android:textSize="16sp"
+        android:backgroundTint="#185FA5"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnLeaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🏆 Leaderboard"
+        android:textSize="16sp"
+        android:backgroundTint="#BA7517"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnBookSearch"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🌐 Search Online Books"
+        android:textSize="16sp"
+        android:backgroundTint="#993556"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btnReviewCorner"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="⭐ Review Corner"
+        android:textSize="16sp"
+        android:backgroundTint="#E91E8C"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btnTransactionHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 Transaction History"
+        android:backgroundTint="#534AB7"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
